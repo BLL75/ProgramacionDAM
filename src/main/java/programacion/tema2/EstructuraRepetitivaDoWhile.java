@@ -38,6 +38,5 @@ public class EstructuraRepetitivaDoWhile {
             System.out.print((inicio++) + " ");
         }while(inicio <= fin-1);
         System.out.println(inicio);
-    }
-    
+    }  
 }
