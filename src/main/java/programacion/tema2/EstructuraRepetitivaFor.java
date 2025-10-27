@@ -32,7 +32,8 @@ public class EstructuraRepetitivaFor {
         // Caso especial: si son iguales
         if (inicio == fin) {
             System.out.println(inicio);
-        } else {
+        } 
+        else {
             // Bucle for para recorrer desde inicio hasta fin
             for (int i = inicio; i <= fin; i++) {
                 System.out.print(i + " ");
