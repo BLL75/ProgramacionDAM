@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"programacion.tema4","l":"ComparacionCadenas"}];updateSearchResults();
