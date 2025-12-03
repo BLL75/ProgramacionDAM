@@ -1,0 +1,28 @@
+<!-- hospital_alumno.dtd -->
+<!-- Alumno: Bernardo Luque Lafuente -->
+<!-- Comentario 1: Se incluye 'cod' en cliente porque aparece en hospital.xml -->
+<!-- Comentario 2: Se define enumeración con tildes como indica el enunciado -->
+
+<!ELEMENT pedidos (pedido*)>
+
+<!ELEMENT pedido (cliente?, productos)>
+
+<!ELEMENT cliente (nombre | razon_social)>
+<!ATTLIST cliente cod CDATA #IMPLIED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT razon_social (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+
+<!ELEMENT producto (cantidad?, nombre?, precio)>
+<!ATTLIST producto
+    cod CDATA #REQUIRED
+    familia (Antibióticos | Antisépticos | Antiácidos) #IMPLIED
+    pagado (sí | no) #IMPLIED>
+
+<!ELEMENT cantidad (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+    moneda CDATA #FIXED "EUR">

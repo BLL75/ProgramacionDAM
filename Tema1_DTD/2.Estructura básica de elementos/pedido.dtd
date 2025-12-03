@@ -1,0 +1,16 @@
+<!-- DTD para pedidos: define elementos y atributos -->
+
+<!ELEMENT pedido (cliente, producto+)>
+
+<!-- El atributo id es obligatorio -->
+<!ATTLIST pedido
+    id CDATA #REQUIRED 
+>
+<!ELEMENT cliente (nombre, email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT producto (nombre_producto, cantidad)>
+<!ELEMENT nombre_producto (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+

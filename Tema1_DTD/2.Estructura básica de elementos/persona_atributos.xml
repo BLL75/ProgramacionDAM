@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+
+<!-- ✅ Ejercicio: 2.1.2.3 – Espacios de nombres (Namespaces) -->
+
+<!-- 📌 Descripción:
+     Los espacios de nombres (namespaces) permiten evitar conflictos cuando 
+     dos elementos o atributos tienen el mismo nombre pero diferente contexto.
+     Se declaran usando el atributo xmlns.
+-->
+
+<!-- 🧠 Objetivos:
+     - Aprender a declarar un espacio de nombres XML.
+     - Comprender cómo se utilizan prefijos para distinguir elementos.
+     - Entender la diferencia entre prefijo y espacio de nombres por defecto.
+-->
+
+<!-- 📄 Código XML con namespace y prefijos -->
+<persona xmlns:contacto="http://ejemplo.org/contacto/">
+    <nombre>Rosa</nombre>
+    <apellido>Urgan</apellido>
+    <contacto:telefono>685 414 251</contacto:telefono>
+    <contacto:email>rosaur@gmail.com</contacto:email>
+</persona>
+

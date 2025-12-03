@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="ETF-8"?> -->
+<!DOCTYPE colegio SYSTEM "colegio.dtd">
+
+<colegio>
+    <alumno codigo="A001">Antonio</alumno>
+    <alumno codigo="A002">David</alumno>
+    
+    <libro alumno_asignado="A001">Inglés</libro>
+    <libro alumno_asignado="A002">Lenguaje</libro>
+</colegio>

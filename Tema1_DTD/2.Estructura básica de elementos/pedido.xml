@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<!-- was: <?xml version="1.0" encoding="ETF-8"?> -->
+<!DOCTYPE pedido SYSTEM "pedido.dtd">
+
+<pedido id="1001">
+    <cliente>
+        <nombre>Ana Anaya</nombre>
+        <email>anaanaya@gmail.com</email>
+    </cliente>
+    <producto>
+        <nombre_producto>Teclado</nombre_producto>
+        <cantidad>23</cantidad>
+    </producto>
+</pedido>

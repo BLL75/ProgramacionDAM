@@ -1,0 +1,11 @@
+<!ELEMENT colegio (alumno+, libro*)>
+<!ELEMENT alumno (#PCDATA)>
+<!ELEMENT libro (#PCDATA)>
+
+<!ATTLIST alumno
+    codigo ID #REQUIRED
+>
+
+<!ATTLIST libro
+    alumno_asignado IDREF #IMPLIED
+>

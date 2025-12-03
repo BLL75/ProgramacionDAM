@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ✅ Ejercicio: 2.1.2.4 – Elementos vacíos -->
+
+<!-- 📌 Descripción:
+     Un elemento vacío en XML es aquel que no contiene ni texto ni otros elementos hijos.
+     Puede declararse de dos formas equivalentes.
+-->
+
+<!-- 🧠 Objetivos:
+     - Aprender a representar elementos sin contenido.
+     - Comprender las dos formas válidas para declarar un elemento vacío.
+-->
+
+<!-- 📄 Código XML de ejemplo -->
+
+<persona>
+    <nombre>Elena</nombre>
+    <telefono></telefono>          <!-- Forma larga -->
+    <email />                      <!-- Forma corta o autocierre -->
+</persona>

@@ -1,0 +1,9 @@
+<!-- Declaramos una entidad interna -->
+<!ENTITY LMSGI "Lenguajes de Marcas y Sistemas de Gestión de Información">
+
+<!-- Declaramos una entidad externa (privada) -->
+<!ENTITY DATOS SYSTEM "modulo_datos.xml">
+
+<!-- Declaración de elemento -->
+<!ELEMENT modulo (#PCDATA)>
+

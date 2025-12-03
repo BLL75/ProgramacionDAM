@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ✅ Ejercicio: 2.1.2.5 – Comentarios en XML -->
+
+<!-- 📌 Descripción:
+     Los comentarios permiten dejar anotaciones dentro de un documento XML.
+     Son ignorados por el parser y no afectan a la estructura del documento.
+-->
+
+<!-- 🧠 Objetivos:
+     - Aprender la sintaxis correcta para escribir comentarios en XML.
+     - Saber qué tipo de contenido no se permite dentro de un comentario.
+-->
+
+<!-- ❗ No se permiten dobles guiones (--) dentro de un comentario XML -->
+
+<persona>
+    <!-- Comentario: este es el nombre del usuario -->
+    <nombre>Mario</nombre>
+
+    <!-- Comentario: email vacío de momento -->
+    <email></email>
+</persona>

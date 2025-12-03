@@ -1,0 +1,10 @@
+<!-- Declaramos las notaciones para tipos de imagen -->
+<!NOTATION gif SYSTEM "image/gif">
+<!NOTATION jpg PUBLIC "JPEG 1.0" "image/jpeg">
+
+<!-- Declaramos el elemento y su atributo -->
+<!ELEMENT alumno (#PCDATA)>
+<!ATTLIST alumno
+    formato_foto NOTATION (gif | jpg) #REQUIRED
+>
+

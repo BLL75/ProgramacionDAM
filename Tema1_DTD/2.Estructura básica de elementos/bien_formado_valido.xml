@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="EFT-8"?> -->
+
+<!-- ✅ Ejercicio: 2.1.3 – Bien formado y válido -->
+
+<!-- 📌 Descripción:
+     Un documento XML bien formado cumple con las reglas sintácticas básicas del lenguaje XML.
+     Un documento válido, además de estar bien formado, respeta una estructura definida por un DTD o un esquema (XSD).
+-->
+
+<!-- 🧠 Objetivos:
+     - Reconocer la diferencia entre XML bien formado y válido.
+     - Comprobar que el documento cumple con la sintaxis XML básica.
+     - Asociar un DTD para validar la estructura del documento.
+-->
+
+<!-- 📄 Documento XML bien formado y con referencia a un DTD externo -->
+<!DOCTYPE persona SYSTEM "persona.dtd">
+
+<persona>
+    <nombre>Julia</nombre>
+    <edad>33</edad>
+</persona>

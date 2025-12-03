@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- ✅ Paso 1: Empezamos con 2.1.1 – Prólogo -->
+<!-- 🧾 Ejercicio: Crear un documento XML con prólogo -->
+<!-- Objetivo: Aprender a usar el prólogo correctamente en XML -->
+
+<!-- Este es el elemento raíz del documento -->
+<mensaje>
+    ¡Hola, XML!
+</mensaje>

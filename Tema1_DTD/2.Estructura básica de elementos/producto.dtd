@@ -1,0 +1,10 @@
+<!ELEMENT producto (nombre, precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ATTLIST producto
+    id ID #REQUIRED
+    categoria (informatica|hogar|ropa) "informatica"
+    disponible (si|no) #FIXED "si"
+    marca CDATA #IMPLIED
+>

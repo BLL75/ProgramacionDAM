@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "hospital_alumno.dtd">
+
+<!-- hospital_alumno.xml -->
+<!-- Alumno: Bernardo Luque Lafuente -->
+<!-- Comentario 1: El primer pedido representa un cliente facultativo con solo un producto -->
+<!-- Comentario 2: El segundo pedido representa un hospital con tres productos que cumplen condiciones específicas -->
+
+<pedidos>
+
+    <!-- Pedido con cliente facultativo (profesor y provincia) -->
+    <pedido>
+        <cliente>
+            <nombre>Víctor Javier Gómez Arques</nombre>
+        </cliente>
+        <productos>
+            <producto cod="P100" familia="Antibióticos" pagado="sí">
+                <nombre>Málaga</nombre>
+                <precio moneda="EUR">45</precio>
+            </producto>
+        </productos>
+    </pedido>
+    
+    <!-- Pedido con razón social (hospital) -->
+    <pedido>
+        <cliente>
+            <nombre></nombre>
+        </cliente>
+        <productos>
+            <!-- Producto 1: 25€, sin pagar -->
+            <producto  cod="P101" familia="Antisépticos" pagado="no">
+                <nombre>Producto 1</nombre>
+                <precio moneda="EUR">25</precio>
+            </producto>
+            
+            <!-- Producto 2: familia Antiácidos -->
+            <producto cod="P202" familia="Antiácidos" pagado="sí">
+                <nombre>Producto 2</nombre>
+                <precio moneda="EUR">40.5</precio>
+            </producto>
+            
+            <!-- Producto 3: con el nombre del primer apellido -->
+            <producto cod="P301" familia="Antibióticos" pagado="sí">
+                <nombre>Producto 3</nombre>
+                <precio moneda="EUR">32.75</precio>
+            </producto>
+        </productos>
+    </pedido>
+</pedidos>

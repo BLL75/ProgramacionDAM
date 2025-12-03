@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="EFT-8" ?> -->
+
+<!-- ✅ Ejercicio: 2.1.2.6 – Caracteres especiales y entidades -->
+
+<!-- 📌 Descripción:
+     Algunos caracteres tienen un significado especial en XML y no pueden
+     usarse directamente en el contenido. En su lugar, deben escribirse
+     mediante entidades predefinidas.
+-->
+
+<!-- 🧠 Objetivos:
+     - Conocer los caracteres especiales que deben ser escapados.
+     - Utilizar correctamente las entidades XML estándar.
+-->
+
+<!-- 📄 Entidades XML comunes:
+     &lt;    → menor que (<)
+     &gt;    → mayor que (>)
+     &amp;   → ampersand (&)
+     &quot; → comillas dobles (")
+     &apos; → comillas simples (')
+-->
+
+<comentario>
+    El símbolo menor se escribe como &lt y el mayor &gt;.
+    Para escribir ampersand escribimos &amp;
+    También se puede usar comillas dobles(&quot) y simples(&apos);
+</comentario>
