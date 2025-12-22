@@ -43,7 +43,5 @@ public class OpereacionesAvanzadas {
         // TODO Paso 7: Posición de la primera aparición de "Kotlin"
         int posicion = mensaje2.indexOf("Kotlin");
         System.out.println("Primera aparición de 'Kotlin': " + posicion);
-
     }
-    
 }
